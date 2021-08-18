@@ -1,0 +1,63 @@
+*{
+    --dark-purple: #7ABAA1;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Patrick Hand SC', cursive;
+    box-sizing: border-box;
+   }
+   body {
+       background-color: #D1FAE5;
+     }
+     p{
+       margin-block-end: 0;
+     }
+     #App{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-align: center;;
+     }
+     .heading-container{
+       margin: 2rem auto 2rem;
+       padding: 0 2rem;
+       font-size: 1.5rem;
+       box-shadow: 0 0 10px 5px grey;
+       background-color: var(--dark-purple);
+     }
+     .heading-container h1{
+         margin-bottom: 0;
+     }
+     h1{
+       display: block;
+       font-size: 2em;
+       margin-block-start: 0.67em;
+       margin-block-end: 0.67em;
+       margin-inline-start: 0px;
+       margin-inline-end: 0px;
+       font-weight: bold;
+     }
+     .section{
+       width: 100%;
+       max-width: 600px;
+       text-align: center;
+       margin: 2rem 1rem;
+   }
+   .label{
+     font-weight: bold;
+     display: inline-block;
+   }
+   .input-field{
+     margin: 1rem;
+     margin-right: 5rem;
+     height: 5vh;
+     padding-left: 2rem;
+     color: black;
+     font-size: medium;
+     border: 2px solid var(--dark-purple);
+   }
+   .button{
+     padding: 0.5rem 1rem;
+     background-color: var(--dark-purple);
+     color: black;
+     border: none;
+   }
+   
